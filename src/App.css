@@ -1,5 +1,4 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -40,3 +39,18 @@
 .read-the-docs {
   color: #888;
 }
+
+.App{
+display: flex;
+flex-direction: row;
+}
+
+html body {
+     padding-top: 65px;
+}
+
+.input{
+    margin-top: 100px;   
+    height: 2rem;
+}
+

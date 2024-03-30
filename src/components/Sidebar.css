@@ -1,0 +1,8 @@
+.Sidebar {
+  position: sticky; /* Fix the sidebar position */
+  left: 0; /* Align to the left side of the screen */
+  top: 0; /* Align to the top of the screen */
+  height: 100%; /* Make the sidebar height full-screen */
+  width: 250px; /* Set the width of the sidebar */
+  padding: 20px; /* Padding */
+}

@@ -1,0 +1,20 @@
+.stockInfo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.infoItem{
+ margin-right: 20px;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ flex: 1;
+}
+
+.green{
+ color: green;
+}
+.red{
+    color: red;
+}
