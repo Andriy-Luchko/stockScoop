@@ -1,0 +1,12 @@
+.homeLink img{
+    width: 50px;
+height: auto;
+max-width: 100%;
+}
+
+.stockPage{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
