@@ -1,45 +1,37 @@
-# Web Development Project 5 - StockScoop
+# Web Development Project 6 - Stock Scoop
 
-Submitted by: **Andriy Luchko**
+Submitted by: Andriy Luchko
 
-This web app: **Shows todays most traded stocks and their price, change in price and percent change in price and some summary stats based on your search**
+This web app: shows info on the top 20 most traded stocks today, including some visualization and detailed pages
 
-Time spent: **10** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [X] **The list displays a list of data fetched using an API call**
-- [X] **Data uses the useEffect React hook and async/await syntax**
-- [X] **The app dashboard includes at least three summary statistics about the data such as**
-  - [X] *Average percent change in the stocks, total number of positive results, and total amount of negative results*
-- [X] **A search bar allows the user to search for an item in the fetched data**
-- [X] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
+- [X] **The app includes at least one unique chart developed using the fetched data that tell an interesting story**
+- [X] **Clicking on an item in the list view displays more details about it**
+- [X] **Clicking on an item has a direct, unique link to that item's detail view page**
+
 
 The following **optional** features are implemented:
 
-- [X] Multiple filters can be applied simultaneously
-- [X] Filters use different input types such as a text input, a selection, or a slider
-- [X] The user can enter specific bounds for filter values
+- [X] The site's customized dashboard contains more content that explains what is interesting about the data
+- [X] The site allows users to toggle between different data visualizations
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-- [X] **The list displays a list of data fetched using an API call**
-- [X] **Data uses the useEffect React hook and async/await syntax**
-- [X] **The app dashboard includes at least three summary statistics about the data such as**
-  - [X] *Average percent change in the stocks, total number of positive results, and total amount of negative results*
-<img src='https://i.imgur.com/XEnkcJn.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+- [X] **The app includes at least one unique chart developed using the fetched data that tell an interesting story**
+- [X] The site's customized dashboard contains more content that explains what is interesting about the data
+- [X] The site allows users to toggle between different data visualizations
+<img src='https://i.imgur.com/KFhE74J.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-- [X] **A search bar allows the user to search for an item in the fetched data**
-<img src='https://i.imgur.com/WX3SIyc.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+- [X] **Clicking on an item in the list view displays more details about it**
+- [X] **Clicking on an item has a direct, unique link to that item's detail view page**
+<img src='https://i.imgur.com/C1Aa8dL.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-- [X] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
-- [X] Multiple filters can be applied simultaneously
-- [X] Filters use different input types such as a text input, a selection, or a slider
-- [X] The user can enter specific bounds for filter values
-<img src='https://i.imgur.com/uZLDcff.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ShareX
 <!-- Recommended tools:
@@ -49,7 +41,8 @@ GIF created with ShareX
 
 ## Notes
 
-A lot of issues with css and styling
+Describe any challenges encountered while building the app.
+The graph making library was tough to use for customzing the graphs
 
 ## License
 
